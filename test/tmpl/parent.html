@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <header>
+    {% block header %}
+    default-header
+    {% endblock %}
+  </header>
+
+  <section class="left">
+    {% block left %}{% endblock %}
+  </section>
+
+  <section class="right">
+    {% block right %}
+    This is more content
+    {% endblock %}
+  </section>
+</body>
+</html>

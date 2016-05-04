@@ -1,0 +1,45 @@
+{
+  "name": "mail-tram",
+  "version": "0.0.1",
+  "description": "Send your emails!",
+  "author": "Andres Hermosilla <ahermosilla@barracuda.com>",
+  "main": "",
+  "dependencies": {
+    "eventemitter2": "1.0.3",
+    "nodemailer": "1.3.0",
+    "nodemailer-mailgun-transport": "^1.0.1",
+    "nodemailer-postmark-transport": "^1.0.0",
+    "nodemailer-sendgrid-transport": "0.2.0",
+    "nodemailer-sendmail-transport": "~1.0.0",
+    "nodemailer-ses-transport": "1.3.0",
+    "nodemailer-smtp-pool": "2.5.2",
+    "nodemailer-smtp-transport": "2.4.2",
+    "validator": "^5.2.0"
+  },
+  "devDependencies": {
+    "ejs": "^2.4.1",
+    "gulp": "^3.8.11",
+    "gulp-buffer": "0.0.2",
+    "gulp-jscs": "^1.6.0",
+    "gulp-jshint": "^1.10.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-notify-growl": "1.0.2",
+    "gulp-watch": "^4.2.4",
+    "jshint-stylish": "^1.0.2",
+    "mocha": "^2.2.4",
+    "nunjucks": "^2.4.2",
+    "sinon": "^1.17.3"
+  },
+  "scripts": {},
+  "keywords": [
+    "email",
+    "mail",
+    "smtp",
+    "train"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rezen/mail-tram"
+  },
+  "license": "MIT"
+}
